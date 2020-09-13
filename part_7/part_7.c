@@ -203,7 +203,11 @@ int connectDoors(Position* doorOne, Position* doorTwo){
  		}else{
  			return 0;
  		}
+
+ 		getch();
  	}
+
+ 	return 1;
 }
 
 Player* playerSetUp(){
