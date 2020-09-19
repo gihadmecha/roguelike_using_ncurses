@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Player	part_9.c	/^typedef struct Player {$/;"	s	file:
+Player	part_9.c	/^} Player;$/;"	t	typeref:struct:Player	file:
+Position	part_9.c	/^typedef struct Position {$/;"	s	file:
+Position	part_9.c	/^} Position;$/;"	t	typeref:struct:Position	file:
+Room	part_9.c	/^typedef struct Room {$/;"	s	file:
+Room	part_9.c	/^} Room;$/;"	t	typeref:struct:Room	file:
+c_file	Makefile	/^c_file = \/home\/gihad\/Documents\/roguelike_using_ncurses\/part_9\/part_9.c$/;"	m
+checkPosition	part_9.c	/^int checkPosition(int newY, int newX, Player* user){$/;"	f
+connectDoors	part_9.c	/^int connectDoors(Position* doorOne, Position* doorTwo){$/;"	f
+createRoom	part_9.c	/^Room* createRoom(int x, int y, int height, int width){$/;"	f
+doors	part_9.c	/^	Position** doors;$/;"	m	struct:Room	file:
+drawRoom	part_9.c	/^int drawRoom(Room* room){$/;"	f
+executable_file	Makefile	/^executable_file = part_9$/;"	m
+handleInput	part_9.c	/^int handleInput(int input, Player* user){$/;"	f
+health	part_9.c	/^	int health;$/;"	m	struct:Player	file:
+height	part_9.c	/^	int height;$/;"	m	struct:Room	file:
+main	part_9.c	/^int main()$/;"	f
+mapSetUp	part_9.c	/^Room** mapSetUp(){$/;"	f
+playerMove	part_9.c	/^int playerMove(int y, int x, Player* user){$/;"	f
+playerSetUp	part_9.c	/^Player* playerSetUp(){$/;"	f
+position	part_9.c	/^	Position position;$/;"	m	struct:Player	file:
+position	part_9.c	/^	Position position;$/;"	m	struct:Room	file:
+screenSetUp	part_9.c	/^int screenSetUp(){$/;"	f
+width	part_9.c	/^	int width;$/;"	m	struct:Room	file:
+x	part_9.c	/^	int x;$/;"	m	struct:Position	file:
+y	part_9.c	/^	int y;$/;"	m	struct:Position	file:
