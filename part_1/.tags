@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Player	part_1.c	/^typedef struct Player {$/;"	s	file:
+Player	part_1.c	/^} Player;$/;"	t	typeref:struct:Player	file:
+c_file	Makefile	/^c_file = \/home\/gihad\/Documents\/roguelike_using_ncurses\/part_1\/part_1.c$/;"	m
+executable_file	Makefile	/^executable_file = part_1$/;"	m
+health	part_1.c	/^	int health;$/;"	m	struct:Player	file:
+main	part_1.c	/^int main()$/;"	f
+mapSetUp	part_1.c	/^int mapSetUp(){$/;"	f
+playerSetUp	part_1.c	/^Player* playerSetUp(){$/;"	f
+screenSetUp	part_1.c	/^int screenSetUp(){$/;"	f
+xPosition	part_1.c	/^	int xPosition;$/;"	m	struct:Player	file:
+yPosition	part_1.c	/^	int yPosition;$/;"	m	struct:Player	file:

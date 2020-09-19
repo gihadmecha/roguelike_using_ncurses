@@ -24,10 +24,14 @@ typedef struct Level {
 	int level;
 	int numberOfRooms;
 	struct Room** rooms;
+	struct Monster** monsters;
+	int noOfMonsters;
 } Level;
 
 
+
 int screenSetUp();
+
 
 // level/map functions
 Level* createLevel(int level);
@@ -58,7 +62,7 @@ int main()
 
 	level = createLevel(1);
 
-	playerSetUp();
+	user = playerSetUp();
 
 	//#define getch()			wgetch(stdscr)
 	//(int) wgetch (WINDOW *);
@@ -87,6 +91,7 @@ int screenSetUp(){
 	return 0;
 }
 
+
 Level* createLevel(int level){
 	Level* newLevel;
 	newLevel = malloc(sizeof(Level));
@@ -94,6 +99,7 @@ Level* createLevel(int level){
 	newLevel->numberOfRooms = 3;
 	newLevel->rooms = roomsSetUp();
 	newLevel->tiles = saveLevelPositions();
+	return newLevel;
 }
 
 Room** roomsSetUp(){

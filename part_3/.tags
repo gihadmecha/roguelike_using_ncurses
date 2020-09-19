@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Player	part_3.c	/^typedef struct Player {$/;"	s	file:
+Player	part_3.c	/^} Player;$/;"	t	typeref:struct:Player	file:
+c_file	Makefile	/^c_file = \/home\/gihad\/Documents\/roguelike_using_ncurses\/part_3\/part_3.c$/;"	m
+checkPosition	part_3.c	/^int checkPosition(int newY, int newX, Player* user){$/;"	f
+executable_file	Makefile	/^executable_file = part_3$/;"	m
+handleInput	part_3.c	/^int handleInput(int input, Player* user){$/;"	f
+health	part_3.c	/^	int health;$/;"	m	struct:Player	file:
+main	part_3.c	/^int main()$/;"	f
+mapSetUp	part_3.c	/^int mapSetUp(){$/;"	f
+playerMove	part_3.c	/^int playerMove(int y, int x, Player* user){$/;"	f
+playerSetUp	part_3.c	/^Player* playerSetUp(){$/;"	f
+screenSetUp	part_3.c	/^int screenSetUp(){$/;"	f
+xPosition	part_3.c	/^	int xPosition;$/;"	m	struct:Player	file:
+yPosition	part_3.c	/^	int yPosition;$/;"	m	struct:Player	file:
